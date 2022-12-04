@@ -206,53 +206,7 @@ function scripthub()
     spawn(function()
         game:GetService("RunService").RenderStepped:connect(function()
             game.CoreGui.ChildAdded:connect(function(p1)
-                if p1:FindFirstChild("PropertiesFrame") or p1:FindFirstChild("ExplorerPanel") or p1:FindFirstChild("SaveInstance") then -- Dark Dex frames/children
-                    game.Players.LocalPlayer:Kick("\nMako Hub\nAnti Dark Dex")
-                    wait(.5)
-                    while true do end
-                end
-            end)
-        end)
-    end)
-    
-    function kick(msg)
-        game.Players.LocalPlayer:Kick(msg)
-    end
-    function kickcash(msg)
-        game.Players.LocalPlayer:Kick("\nMako Hub ?\n"..msg)
-        wait()
-        function cash()
-            return
-        end
-        local FFFF
-        FFFF = hookfunc(cash,function(vvvv)
-            return FFFF(vvvv)
-        end)
-        cash()
-        getpropvalue()
-        while true do end
-        for i = 0 , 10000000 do
-            while true do end
-        end
-    end
-    
-    if getgenv().key == nil or getgenv().key == "" then
-        return kickcash("\n Use key")
-    end
-    
-    if getgenv().id == nil or getgenv().id == "" then
-        return kickcash("\n Use discordid")
-    end
-    
-    function ntf(msg,Delay)
-    game.StarterGui:SetCore("SendNotification",{
-    Title = "Mako Hub",
-    Icon = "http://www.roblox.com/asset/?id=";
-    Text = msg,
-    Duration = Delay
-    })
-    end
-    -------------------------------------- Anti Dev Console and Console Syn x ------------------------------
+ 
     spawn(function()
         game:GetService("RunService").RenderStepped:connect(function()
             for i,v in pairs (game:GetService("CoreGui"):GetChildren())do
