@@ -1,3 +1,8 @@
+repeat task.wait(5) until game:IsLoaded()
+repeat task.wait(6) until game.Players
+repeat task.wait(4) until game.Players.LocalPlayer
+repeat task.wait(2) until game.Players.LocalPlayer:FindFirstChild("PlayerGui")
+repeat task.wait(1) until game.Players.LocalPlayer.PlayerGui:FindFirstChild("Main");
 _G.KaitanMode = true -- BF AND KL
 shared.Team = "Pirates"
 getgenv().Configs = {
