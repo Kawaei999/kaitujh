@@ -13,7 +13,7 @@ _G.MainSettings = {
         }
     }
 _G.Fruits_Settings = { -- ตั้งค่าผล
-    ['Main_Fruits'] = {'Dough-Dough'}, -- ผลหลัก ถ้ายังไม่ใช่ค่าที่ตั้งมันจะกินจนกว่าจะใช่หรือซื้อ
+    ['Main_Fruits'] = {'Dark-Dark'}, -- ผลหลัก ถ้ายังไม่ใช่ค่าที่ตั้งมันจะกินจนกว่าจะใช่หรือซื้อ
     ['Select_Fruits'] = {"Sound-Sound","Mammoth-Mammoth","Dough-Dough","Dark-Dark","Dragon-Dragon"}
 }
 _G.Quests_Settings = { -- ตั้งค่าเควสหลักๆ
