@@ -27,14 +27,14 @@ _G.Quests_Settings = { -- ตั้งค่าเควสหลักๆ
 }
 _G.Races_Settings = { -- ตั้งค่าเผ่า
     ['Race'] = {
-        ['EnabledEvo'] = true,
-        ["v2"] = true,
-        ["v3"] = true,
+        ['EnabledEvo'] = false,
+        ["v2"] = false,
+        ["v3"] = false,
         ["Races_Lock"] = {
             ["Races"] = { -- Select Races U want
-                ["Mink"] = true,
+                ["Mink"] = false,
                 ["Human"] = false,
-                ["Fishman"] = true
+                ["Fishman"] = false
             },
             ["RerollsWhenFragments"] = 20000 -- Random Races When Your Fragments is >= Settings
         }
