@@ -13,6 +13,7 @@ _G.timer = 2.5 -- เวลาที่จะ set log หน่วยเป็�
 _G._Inventory_ = {"Hallow Scythe", "Tushita", "Cursed Dual Katana", "Shark Anchor", "True Triple Katana", "Dark Dagger", "Soul Guitar"} -- {"Yama", "Hallow Scythe", "Tushita", "Cursed Dual Katana", "True Triple Katana", "Dark Dagger", "Soul Guitar"} เลือกเอาวาจะ log ชิ้นไหนบ้าง
 -- [[ - Script Here - ]]
 
-_G.Key ="NKYQMI"
-_G.Discord = "887696519006941225"
+
+_G.Key ="xxxx"
+_G.Discord = "xxxx"
 getgenv().Loaders = loadstring(game:HttpGet("https://raw.githubusercontent.com/Achitsak/scripts/main/masterp_"))()
