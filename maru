@@ -93,6 +93,7 @@ _G.GunSettings = { -- ปืนที่จะทำ
     ['SerpentBow'] = true,
     ['SoulGuitar'] = true
 }
+
 getgenv().Key = "MARU-FULN0-5VUOJ-O9PL-2JHQR-HHU4"
 getgenv().id = "887696519006941225"
 getgenv().Script_Mode = "Kaitun_Script"
